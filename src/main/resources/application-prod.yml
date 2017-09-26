@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  context-path: /springbootdemo
+
+##生产环境用这个
+girl:
+  cupSize: F
+  age: 18
+  content: "cupSize:${cupSize}, age:${age}"
